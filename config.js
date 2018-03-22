@@ -138,10 +138,10 @@ var config = {
     // disableDesktopSharing: false,
 
     // The ID of the jidesha extension for Chrome.
-    desktopSharingChromeExtId: null,
+    desktopSharingChromeExtId: 'chhmbfhoocijmflngabjnohfilicdodh',
 
     // Whether desktop sharing should be disabled on Chrome.
-    desktopSharingChromeDisabled: true,
+    desktopSharingChromeDisabled: false,
 
     // The media sources to use when using screen sharing with the Chrome
     // extension.
