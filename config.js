@@ -138,7 +138,7 @@ var config = {
      disableDesktopSharing: false,
 
     // The ID of the jidesha extension for Chrome.
-    desktopSharingChromeExtId: 'chhmbfhoocijmflngabjnohfilicdodh',
+    desktopSharingChromeExtId: 'ilnllljhielabjbjifdjcibjmghfeglm',
 
     // Whether desktop sharing should be disabled on Chrome.
     desktopSharingChromeDisabled: false,
