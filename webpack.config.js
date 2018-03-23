@@ -9,7 +9,7 @@ const webpack = require('webpack');
  * development with webpack-dev-server.
  */
 const devServerProxyTarget
-    = process.env.WEBPACK_DEV_SERVER_PROXY_TARGET || 'https://beta.meet.jit.si';
+    = process.env.WEBPACK_DEV_SERVER_PROXY_TARGET || 'https://meet.myviewboard.com';
 
 const minimize
     = process.argv.indexOf('-p') !== -1
