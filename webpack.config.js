@@ -9,7 +9,8 @@ const webpack = require('webpack');
  * development with webpack-dev-server.
  */
 const devServerProxyTarget
-    = process.env.WEBPACK_DEV_SERVER_PROXY_TARGET || 'https://meet.myviewboard.com';
+    = process.env.WEBP
+JitsiMeetJS.events.track.TRACK_AUDIO_LEVEACK_DEV_SERVER_PROXY_TARGET || 'https://meet.myviewboard.com';
 
 const minimize
     = process.argv.indexOf('-p') !== -1

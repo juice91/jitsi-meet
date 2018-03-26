@@ -41,7 +41,7 @@ var config = {
     bosh: '//meet.myviewboard.com/http-bind',
 
     // The name of client node advertised in XEP-0115 'c' stanza
-    clientNode: 'http://meet.myviewboard.comt',
+    clientNode: 'http://meet.myviewboard.com',
 
     // The real JID of focus participant - can be overridden here
     // focusUserJid: 'focus@auth.jitsi-meet.example.com',
