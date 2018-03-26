@@ -46,6 +46,7 @@ const config = {
     devServer: {
         https: true,
         inline: true,
+        disableHostCheck: true,
         proxy: {
             '/': {
                 bypass: devServerProxyBypass,
