@@ -139,7 +139,7 @@ class Watermarks extends Component<*, *> {
         if (this.state.showJitsiWatermark
                 || (this.props._isGuest
                     && this.state.showJitsiWatermarkForGuests)) {
-            reactElement = <div className = 'watermark leftwatermark' />;
+            reactElement = <div className = '' />;
 
             const { jitsiWatermarkLink } = this.state;
 
