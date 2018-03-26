@@ -8,10 +8,7 @@ const webpack = require('webpack');
  * The URL of the Jitsi Meet deployment to be proxy to in the context of
  * development with webpack-dev-server.
  */
-const devServerProxyTarget
-    = process.env.WEBP
-JitsiMeetJS.events.track.TRACK_AUDIO_LEVEACK_DEV_SERVER_PROXY_TARGET || 'https://meet.myviewboard.com';
-
+const devServerProxyTarget = process.env.WEBPACK_DEV_SERVER_PROXY_TARGET || 'https://meet.myviewboard.com';
 const minimize
     = process.argv.indexOf('-p') !== -1
         || process.argv.indexOf('--optimize-minimize') !== -1;
