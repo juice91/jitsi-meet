@@ -228,5 +228,3 @@ function devServerProxyBypass({ path }) {
 
     /* eslint-enable array-callback-return, indent */
 }
-ln -sf /var/lib/prosody/auth.meet.myviewboard.com.crt /usr/local/share/ca-certificates/auth.meet.myviewboard.com.crt
-update-ca-certificates -f
