@@ -15,7 +15,8 @@ const htmlStr = `
         <div class='sideToolbarBlock first'>
             <label class='first' data-i18n='profile.setDisplayNameLabel'>
             </label>
-            <input class='input-control' type='text' id='setDisplayName'
+            <input class='input-control' type='text' id='setDisplayName' 
+                disabled
                 data-i18n='[placeholder]settings.name'>
         </div>
         <div class='sideToolbarBlock'>
