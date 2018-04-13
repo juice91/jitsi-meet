@@ -107,9 +107,9 @@ class WelcomePage extends AbstractWelcomePage {
                         ? 'with-content' : 'without-content'}` }
                     id = 'new_welcome_page'>
                     <div className = 'header'>
-                        <div className = 'header-image' />
-                        <Watermarks />
-                        <div className = 'header-text'>
+                      {/*  <div className = 'header-image' />
+                        <Watermarks />*/}
+                       {/* <div className = 'header-text'>
                             <h1 className = 'header-text-title'>
                                 { t('welcomepage.title') }
                             </h1>
@@ -117,7 +117,7 @@ class WelcomePage extends AbstractWelcomePage {
                                 { t('welcomepage.appDescription',
                                     { app: APP_NAME }) }
                             </p>
-                        </div>
+                        </div>*/}
                         <div id = 'new_enter_room'>
                             <form
                                 className = 'enter-room-input'

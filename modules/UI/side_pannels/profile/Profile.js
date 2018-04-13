@@ -19,11 +19,11 @@ const htmlStr = `
                 disabled
                 data-i18n='[placeholder]settings.name'>
         </div>
-        <div class='sideToolbarBlock'>
+       <!-- <div class='sideToolbarBlock'>
             <label data-i18n='profile.setEmailLabel'></label>
             <input id='setEmail' type='text' class='input-control'
                 data-i18n='[placeholder]profile.setEmailInput'>
-        </div>
+        </div>-->
         <div id='profile_auth_container'
              class='sideToolbarBlock auth_container'>
             <p data-i18n='toolbar.authenticate'></p>
