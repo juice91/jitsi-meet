@@ -197,7 +197,7 @@ class InfoDialog extends Component {
                     <div className = 'info-dialog-title'>
                         { t('info.title') }
                     </div>
-                    <div className = 'info-dialog-conference-url'>
+                  {/*  <div className = 'info-dialog-conference-url'>
                         { t('info.conferenceURL',
                             { url: this._getURLToDisplay() }) }
                         <textarea
@@ -206,6 +206,16 @@ class InfoDialog extends Component {
                             ref = { this._setCopyElement }
                             tabIndex = '-1'
                             value = { this._getTextToCopy() } />
+                    </div>*/}
+                    <div className = 'info-dialog-conference-url'>
+                        { 'Conference Id',
+                            { url: this._getURLToDisplay() }) }
+                        {/*<textarea
+                            className = 'info-dialog-copy-element'
+                            readOnly = { true }
+                            ref = { this._setCopyElement }
+                            tabIndex = '-1'
+                            value = { this._getTextToCopy() } />*/}
                     </div>
                     <div className = 'info-dialog-dial-in'>
                         { this._renderDialInDisplay() }
@@ -322,7 +332,12 @@ class InfoDialog extends Component {
      * @returns {string}
      */
     _getURLToDisplay() {
-        return this.props._inviteURL.replace(/^https?:\/\//i, '');
+
+      /*  if(window.location.href!==document.referrer){
+            return document.referrer+this.props._inviteURL.replace(/^https?:\/\//i, '').replace('meet.myviewboard.com/','');
+        }
+        */
+        return this.props._inviteURL.replace(/^https?:\/\//i, '').replace('meet.myviewboard.com/','');
     }
 
     /**
